@@ -65,3 +65,15 @@ nav .menu a{
     padding-bottom: 180px;
     text-align: center;
 }
+
+#cards{
+    width: 1600px;
+    height: 448px;
+    
+}
+
+.notes{
+    width: 1360;
+    height: 116px;
+    text-align: center;
+}
