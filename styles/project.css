@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*shared style*/
+
 .font-inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -13,45 +13,37 @@
     background-color: #30B868;
     border: none;
     padding: 12.5px 16px;
-    border-radius: 5px;
+    border-radius: 4px;
     font-size: 16px;
-    font-weight:bold;
-    color: white;
-
+    color: #ffffff;
+    font-weight: bold;
 }
 
-/*Main Style*/
 header{
-    background-color: #9e8b8b;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 120px;
-    padding-right: 120px;
-
+    background-color: #ffffff;
+    padding-top: 50px;
 }
 
 nav{
-    width: 79%;
-    max-width: 1360px;
-    border: 1px solid red;
+    width: 71%;
+    max-width: 1140px;
     margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     
 }
 
+
 nav .menu{
-    /*justify-content: space-around;*/
     display: flex;
     list-style-type: none;
     gap: 32px;
-    padding-top: 34px;
-    padding-bottom: 34px;
-    padding-left: 375px;
-    padding-right: 375px;
-
 }
+
 nav .menu a{
     font-size: 16px;
+    font-weight: 500;
     color: #000000;
     text-decoration: none;
 }
