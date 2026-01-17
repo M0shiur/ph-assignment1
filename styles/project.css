@@ -17,6 +17,11 @@
     font-size: 16px;
     color: #ffffff;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover{
+   background-color: #45a049;
 }
 
 header{
@@ -46,6 +51,9 @@ nav .menu a{
     font-weight: 500;
     color: #000000;
     text-decoration: none;
+}
+li a:hover {
+    background-color: #555;
 }
 
 #banner{
@@ -112,10 +120,15 @@ div .p-note{
     border-radius: 100px;
     background-color: #F95555;
     display: flex;
+    justify-self: center;
+    padding: auto;
 }
 div .card{
     width: 322px;
     height: 300px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .solution {
   display: flex;
