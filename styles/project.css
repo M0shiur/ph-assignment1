@@ -168,10 +168,16 @@ div .card{
     padding: 80px 40px 80px 40px;
 }
 
+
 .footer{
-width: 1600px;
-height: 348px;
-background-color: #011C36; 
+    width: 1600px;
+    height: 348px;
+    background-color: #011C36;
+    text-align: center;
+}
+.footer-1st{
+
+/* background-color: #011C36;  */
 display: flex;
 justify-content: space-between;
 text-align: center;
@@ -182,7 +188,6 @@ padding-right: 50px;
    padding-right: 50px;
    display: flex;
    align-items: center;
-
 }
 
 .social-footer-icons li a img {
@@ -200,5 +205,4 @@ padding-right: 50px;
 
 .copyright{
     padding-top: 110px;
-    
 }
